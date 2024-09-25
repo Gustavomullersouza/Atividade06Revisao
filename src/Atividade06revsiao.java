@@ -1,3 +1,4 @@
+import java.util.Random;
 import java.util.Scanner;
 
 public class Atividade06revsiao {
@@ -8,6 +9,8 @@ public class Atividade06revsiao {
 
         Scanner sc = new Scanner(System.in);
         String[] tarefas = {"Limpar a casa", "Programar","Correr","Cozinhar","Tomar Banho"};
+
+        //Random random = new Random(5);
 
 
         while (opcao != 9) {
@@ -77,7 +80,16 @@ public class Atividade06revsiao {
                     System.out.println(i);
                 }
 
+            } else if (opcao == 6) {
+
+
+
+                int valorRondomico =(int) (Math.random() * tarefas.length);
+                System.out.println( random.nextInt());
+
             }
         }
+
+        System.out.println("Voce saiu ! ");
     }
 }
