@@ -85,7 +85,7 @@ public class Atividade06revsiao {
 
 
                 int valorRondomico =(int) (Math.random() * tarefas.length);
-                System.out.println( random.nextInt());
+                System.out.println(random.nextInt());
 
             }
         }
